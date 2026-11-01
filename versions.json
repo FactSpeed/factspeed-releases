@@ -1,30 +1,34 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.12",
-  "tag": "v10.14.12",
+  "latest": "10.14.13",
+  "tag": "v10.14.13",
   "date": "2026-11-01",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.12/FactSpeed-Setup-10.14.12.exe",
-    "windows_taille": 143620703,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.12/FactSpeed-10.14.12-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.12/FactSpeed-10.14.12-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.13/FactSpeed-Setup-10.14.13.exe",
+    "windows_taille": 143620720,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.12/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.13/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Page À propos entièrement repensée : sections à pastilles d'icônes,",
-        "Même langage visuel que la fenêtre Licence : icônes vectorielles dessinées"
+        "Page Licence allégée pour les licenciés : les offres Pro/Duo/Business"
+      ]
+    },
+    {
+      "titre": "Corrigé",
+      "items": [
+        "Sans licence active (essai ou expirée), les offres restent affichées"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Traductions arabes complétées (3 nouvelles sections)",
-        "Typecheck, 367 tests, build et E2E verts ; capture d'écran vérifiée"
+        "Typecheck, 367 tests, build et E2E verts ; capture de la page vérifiée"
       ]
     }
   ]
