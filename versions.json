@@ -1,34 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.13",
-  "tag": "v10.14.13",
+  "latest": "10.14.14",
+  "tag": "v10.14.14",
   "date": "2026-11-01",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.13/FactSpeed-Setup-10.14.13.exe",
-    "windows_taille": 143620720,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.13/FactSpeed-10.14.13-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.13/FactSpeed-10.14.13-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.14/FactSpeed-Setup-10.14.14.exe",
+    "windows_taille": 143620567,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.13/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.14/SHA256SUMS.txt",
   "nouveautes": [
-    {
-      "titre": "Ajouté",
-      "items": [
-        "Page Licence allégée pour les licenciés : les offres Pro/Duo/Business"
-      ]
-    },
     {
       "titre": "Corrigé",
       "items": [
-        "Sans licence active (essai ou expirée), les offres restent affichées"
+        "Notification en double pendant le téléchargement : la pop-up et la",
+        "« Version ? » sur la notification : le numéro de version et les vraies",
+        "Toast en triple à l'étape « prête » : quand la notification s'affiche,"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Typecheck, 367 tests, build et E2E verts ; capture de la page vérifiée"
+        "Règle produit appliquée : une phase = une seule surface (notification si"
       ]
     }
   ]
