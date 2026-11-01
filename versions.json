@@ -1,23 +1,37 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.10",
-  "tag": "v10.14.10",
+  "latest": "10.14.11",
+  "tag": "v10.14.11",
   "date": "2026-11-01",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.10/FactSpeed-Setup-10.14.10.exe",
-    "windows_taille": 143618884,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.10/FactSpeed-10.14.10-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.10/FactSpeed-10.14.10-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.11/FactSpeed-Setup-10.14.11.exe",
+    "windows_taille": 143619560,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.10/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.11/SHA256SUMS.txt",
   "nouveautes": [
+    {
+      "titre": "Ajouté",
+      "items": [
+        "Notification de mise à jour entièrement redessinée : logo en pastille,",
+        "Nouvel état « Installation en cours… » : la carte annonce le",
+        "Si le téléchargement ralentit, la carte l'indique honnêtement"
+      ]
+    },
+    {
+      "titre": "Corrigé",
+      "items": [
+        "Notification figée : avec les mises à jour automatiques, la carte ne",
+        "Notification en double : « Me le rappeler plus tard » ferme la"
+      ]
+    },
     {
       "titre": "Qualité",
       "items": [
-        "71 règles CSS mortes retirées (styles.css : 61,2 → 51,9 Ko) : vestiges",
-        "Aucun changement visuel ni fonctionnel : build, 364 tests, E2E et"
+        "3 nouvelles règles testées (367 tests), captures des 3 états vérifiées,"
       ]
     }
   ]
