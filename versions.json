@@ -1,27 +1,24 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.8",
-  "tag": "v10.14.8",
+  "latest": "10.14.9",
+  "tag": "v10.14.9",
   "date": "2026-11-01",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.8/FactSpeed-Setup-10.14.8.exe",
-    "windows_taille": 143620402,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.8/FactSpeed-10.14.8-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.8/FactSpeed-10.14.8-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.9/FactSpeed-Setup-10.14.9.exe",
+    "windows_taille": 143619800,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.8/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.9/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Qualité",
       "items": [
-        "Audit complet du code mort (321 fichiers analysés par 3 passes d'analyse",
-        "2 fichiers entiers jamais importés supprimés (ancien module de verdict",
-        "15 fonctions/constantes jamais référencées retirées (doublons, API jamais",
-        "1 canal de commande interne inatteignable retiré",
-        "Aucun changement fonctionnel : typecheck, 364 tests, build et E2E verts",
-        "Les outils d'audit sont conservés (`scripts/_fx-deadcode*.cjs`) pour"
+        "46 fonctions/constantes ne sont plus exportées inutilement : elles",
+        "Les 24 utilitaires exposés pour les tests automatiques sont conservés",
+        "Typecheck, 364 tests, build et E2E verts ; aucun changement fonctionnel"
       ]
     }
   ]
