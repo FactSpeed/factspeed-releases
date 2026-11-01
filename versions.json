@@ -1,33 +1,27 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.7",
-  "tag": "v10.14.7",
+  "latest": "10.14.8",
+  "tag": "v10.14.8",
   "date": "2026-11-01",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.7/FactSpeed-Setup-10.14.7.exe",
-    "windows_taille": 143623342,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.7/FactSpeed-10.14.7-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.7/FactSpeed-10.14.7-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.8/FactSpeed-Setup-10.14.8.exe",
+    "windows_taille": 143620402,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.7/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.8/SHA256SUMS.txt",
   "nouveautes": [
-    {
-      "titre": "Corrigé",
-      "items": [
-        "Rapport TVA (G50) exact avec remise globale : les bases et montants par",
-        "Journal comptable équilibré avec retenue à la source : la créance sur",
-        "Écritures comptables en une transaction : plus jamais de journal à",
-        "Impayés : les avoirs sont imputés — un client couvert par un avoir n'est",
-        "Dates locales : un document créé entre 00:00 et 00:59 était daté de la"
-      ]
-    },
     {
       "titre": "Qualité",
       "items": [
-        "Alerte « injection XLSX » vérifiée en profondeur : faux positif prouvé par",
-        "11 nouveaux tests à cas calculés (364 tests au total), typecheck, build et"
+        "Audit complet du code mort (321 fichiers analysés par 3 passes d'analyse",
+        "2 fichiers entiers jamais importés supprimés (ancien module de verdict",
+        "15 fonctions/constantes jamais référencées retirées (doublons, API jamais",
+        "1 canal de commande interne inatteignable retiré",
+        "Aucun changement fonctionnel : typecheck, 364 tests, build et E2E verts",
+        "Les outils d'audit sont conservés (`scripts/_fx-deadcode*.cjs`) pour"
       ]
     }
   ]
