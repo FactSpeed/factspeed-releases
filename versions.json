@@ -1,30 +1,33 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.20",
-  "tag": "v10.14.20",
+  "latest": "10.14.21",
+  "tag": "v10.14.21",
   "date": "2026-11-02",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/latest",
-    "windows_taille": null,
-    "mac_arm64": null,
-    "mac_intel": null,
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.21/FactSpeed-Setup-10.14.21.exe",
+    "windows_taille": 143621102,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.21/FactSpeed-10.14.21-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.21/FactSpeed-10.14.21-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.20/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.21/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajouté",
+      "titre": "Corrigé",
       "items": [
-        "Nouveau style « Windows 11 » (Fluent) à la place du style Minimal :",
-        "Version sombre complète du style (Mica sombre #202020, accent cyan)",
-        "Transition automatique : les installations qui utilisaient l'ancien style"
+        "Style Windows 11 recalibré sur les valeurs officielles WinUI 3 Light :",
+        "Focus clavier à double anneau Fluent (noir extérieur + blanc intérieur)",
+        "Champs : le focus affiche uniquement le liseré accent de 2 px sous le",
+        "Labels en phrase normale (plus de capitales forcées), cases à cocher et",
+        "Animations Fluent : 83/167/250 ms avec les courbes officielles, ouverture"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Typecheck, 367 tests, build et E2E verts ; captures de 4 pages vérifiées"
+        "Contrastes vérifiés ≥ AA (#005FB8 sur blanc : 6,3:1)",
+        "Typecheck, 367 tests, build et E2E verts ; captures 4 pages re-vérifiées"
       ]
     }
   ]
