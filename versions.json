@@ -1,34 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.15",
-  "tag": "v10.14.15",
+  "latest": "10.14.16",
+  "tag": "v10.14.16",
   "date": "2026-11-02",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.15/FactSpeed-Setup-10.14.15.exe",
-    "windows_taille": 143620243,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.15/FactSpeed-10.14.15-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.15/FactSpeed-10.14.15-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.16/FactSpeed-Setup-10.14.16.exe",
+    "windows_taille": 143620484,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.15/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.16/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Toutes les fenêtres de dialogue partagent désormais le même style :"
-      ]
-    },
-    {
-      "titre": "Corrigé",
-      "items": [
-        "Fenêtre « Quoi de neuf » réalignée sur le style des autres surfaces :"
+        "« 🔒 Demander confirmation avant de quitter » (Paramètres → Options,",
+        "Jamais demandé pendant une mise à jour : l'installation automatique reste"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Typecheck, 367 tests, build et E2E verts ; captures des fenêtres vérifiées"
+        "Vague zéro-défaut : vérification complète (367 tests, typecheck, build,",
+        "Traductions arabes complétées"
       ]
     }
   ]
