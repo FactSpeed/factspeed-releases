@@ -1,30 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.19",
-  "tag": "v10.14.19",
+  "latest": "10.14.20",
+  "tag": "v10.14.20",
   "date": "2026-11-02",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.19/FactSpeed-Setup-10.14.19.exe",
-    "windows_taille": 143620225,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.19/FactSpeed-10.14.19-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.19/FactSpeed-10.14.19-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/latest",
+    "windows_taille": null,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.19/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.20/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Ajouté",
       "items": [
-        "Audit visuel du thème sur 4 pages (tableau de bord, factures, clients,",
-        "Barre des Paramètres affinée (espacements réduits, icônes 28 px)"
+        "Nouveau style « Windows 11 » (Fluent) à la place du style Minimal :",
+        "Version sombre complète du style (Mica sombre #202020, accent cyan)",
+        "Transition automatique : les installations qui utilisaient l'ancien style"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Tableau de bord, factures et clients audités : rendu propre et cohérent",
-        "Typecheck, 367 tests, build et E2E verts ; captures avant/après comparées"
+        "Typecheck, 367 tests, build et E2E verts ; captures de 4 pages vérifiées"
       ]
     }
   ]
