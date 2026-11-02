@@ -1,28 +1,36 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.17",
-  "tag": "v10.14.17",
+  "latest": "10.14.18",
+  "tag": "v10.14.18",
   "date": "2026-11-02",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.17/FactSpeed-Setup-10.14.17.exe",
-    "windows_taille": 143620418,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.17/FactSpeed-10.14.17-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.17/FactSpeed-10.14.17-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.18/FactSpeed-Setup-10.14.18.exe",
+    "windows_taille": 143620396,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.17/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.18/SHA256SUMS.txt",
   "nouveautes": [
+    {
+      "titre": "Ajouté",
+      "items": [
+        "Boutons en pilule (arrondi complet) — primaire noir, secondaires à",
+        "Barre des Paramètres en pilule noire : l'onglet actif devient une",
+        "Titres de section agrandis jusqu'à 64 px — la typographie signature du"
+      ]
+    },
     {
       "titre": "Corrigé",
       "items": [
-        "Plus de « carré dans carré » dans la barre des Paramètres : chaque"
+        "Cartes parfaitement plates : plus aucune ombre — uniquement des"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Typecheck, 367 tests, build et E2E verts ; capture de la barre vérifiée"
+        "Typecheck, 367 tests, build et E2E verts ; capture du thème vérifiée"
       ]
     }
   ]
