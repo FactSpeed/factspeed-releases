@@ -1,29 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.23",
-  "tag": "v10.14.23",
+  "latest": "10.14.24",
+  "tag": "v10.14.24",
   "date": "2026-11-03",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.23/FactSpeed-Setup-10.14.23.exe",
-    "windows_taille": 143621585,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.23/FactSpeed-10.14.23-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.23/FactSpeed-10.14.23-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.24/FactSpeed-Setup-10.14.24.exe",
+    "windows_taille": 143623009,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.24/FactSpeed-10.14.24-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.24/FactSpeed-10.14.24-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.23/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.24/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Ajouté",
       "items": [
-        "La fenêtre « Tous les modules » s'ouvre maintenant centrée à l'écran :",
-        "Survol du menu inférieur affiné : le fond clair se pose désormais sur"
+        "Menu inférieur transformé en îlot flottant centré, comme la barre des",
+        "Léger soulèvement de l'icône au survol, carte blanche de survol"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Typecheck, 367 tests, build et E2E verts ; capture de la fenêtre centrée"
+        "Typecheck, 396 tests, build et E2E verts ; capture vérifiée"
       ]
     }
   ]
