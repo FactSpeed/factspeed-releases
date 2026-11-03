@@ -1,36 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.22",
-  "tag": "v10.14.22",
+  "latest": "10.14.23",
+  "tag": "v10.14.23",
   "date": "2026-11-03",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.22/FactSpeed-Setup-10.14.22.exe",
-    "windows_taille": 143621507,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.22/FactSpeed-10.14.22-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.22/FactSpeed-10.14.22-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.23/FactSpeed-Setup-10.14.23.exe",
+    "windows_taille": 143621585,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.23/FactSpeed-10.14.23-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.23/FactSpeed-10.14.23-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.22/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.23/SHA256SUMS.txt",
   "nouveautes": [
-    {
-      "titre": "Ajouté",
-      "items": [
-        "Paramètres en navigation latérale (comme les Paramètres Windows 11) :",
-        "Accent recalibré sur le #005FB8 officiel de Windows 11 (Fluent 2)"
-      ]
-    },
     {
       "titre": "Corrigé",
       "items": [
-        "Icônes monochromes : les emojis colorés des tuiles du tableau de bord,",
-        "Tuiles du tableau de bord revenant à des surfaces blanches unies"
+        "La fenêtre « Tous les modules » s'ouvre maintenant centrée à l'écran :",
+        "Survol du menu inférieur affiné : le fond clair se pose désormais sur"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Contrastes AA re-vérifiés, typecheck, 367 tests, build et E2E verts "
+        "Typecheck, 367 tests, build et E2E verts ; capture de la fenêtre centrée"
       ]
     }
   ]
