@@ -1,29 +1,28 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.25",
-  "tag": "v10.14.25",
+  "latest": "10.14.26",
+  "tag": "v10.14.26",
   "date": "2026-11-03",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.25/FactSpeed-Setup-10.14.25.exe",
-    "windows_taille": 143623750,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.25/FactSpeed-10.14.25-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.25/FactSpeed-10.14.25-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.26/FactSpeed-Setup-10.14.26.exe",
+    "windows_taille": 143624437,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.26/FactSpeed-10.14.26-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.26/FactSpeed-10.14.26-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.25/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.26/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "Labels de la barre des Paramètres agrandis (10 px → 11,5 px) pour une",
-        "Icône de recherche alignée avec la rangée des icônes des autres onglets"
+        "Icône loupe retirée du bout de la barre des Paramètres : elle était"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Typecheck, 412 tests, build et E2E verts ; capture de la barre vérifiée"
+        "Typecheck, 426 tests, build et E2E verts ; purge des fichiers temporaires"
       ]
     }
   ]
