@@ -1,17 +1,17 @@
-version: 10.14.27
+version: 10.14.28
 files:
-  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.27/FactSpeed-10.14.27-x64.zip
-    sha512: WzYGzSOQ70mXFnqTaXoEIUpV8lGDs9X5foqB0rHxGXc1pCEUWihI81Ei9GyoW5wzIgr404uf5yyQT/RSvKYaeA==
-    size: 161318011
-  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.27/FactSpeed-10.14.27-arm64.zip
-    sha512: P9mQ0WeUOU8Ntw17aPYwnedU8uwrwzZDqs8r3emf5E+XjgbYTyPGqstuDXSZ9QvHIwmecLyw8ByGbks8I29iqQ==
-    size: 154558035
-  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.27/FactSpeed-10.14.27-x64.dmg
-    sha512: YUH6CuKc7BzCx5Qv6el/L4GI4LSzDcThMSe+NMgJG/hvWtJJgATvg5B8zE9yeXoEbbKCbKk4WeHyaCwwdPLA8g==
-    size: 152485962
-  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.27/FactSpeed-10.14.27-arm64.dmg
-    sha512: XWjIrPfd7FGdMqGLEvvotMyzxAvSEM4ymPjcprc6tDjRrMcuC1/8bHUzIgpITURdIiTfDMp30vD41+EPmVqiQA==
-    size: 146744901
-path: https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.27/FactSpeed-10.14.27-x64.zip
-sha512: WzYGzSOQ70mXFnqTaXoEIUpV8lGDs9X5foqB0rHxGXc1pCEUWihI81Ei9GyoW5wzIgr404uf5yyQT/RSvKYaeA==
-releaseDate: '2026-11-03T11:45:39.236Z'
+  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.28/FactSpeed-10.14.28-x64.zip
+    sha512: FmomvKAYmV9KbDFw4d+UTqv4GDPqay6zDjm88WT9XJZopRTr8S1CHi6Pd84HHQpbakvZq/dXO5Gwp/N4UwhTRA==
+    size: 161318720
+  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.28/FactSpeed-10.14.28-arm64.zip
+    sha512: yAXuaFWzDGWZ+zO33cOmOBzK49RI/Z37JbPFmqT4asu9qEoGeijW+8oQ1Htncn+To/R9GL6aS5M4KAo5iwKh7A==
+    size: 154558753
+  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.28/FactSpeed-10.14.28-x64.dmg
+    sha512: b4UddgMQpEAfdmw1QICMikgZy3lt+3hEzL3+FANfsVhq0BIlf47RF/oNsuRfPeLaKQ3YggT2ITX1W138Jb1L6w==
+    size: 152500435
+  - url: https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.28/FactSpeed-10.14.28-arm64.dmg
+    sha512: obBhTSDXAtwCfet6KaY+iIH2FF0u+cTlb1xYIBWpMnqh4TGHjmqe8DJie/dblEb1gMpdAWf3Cd/XRjEwuwy3Jg==
+    size: 146758733
+path: https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.28/FactSpeed-10.14.28-x64.zip
+sha512: FmomvKAYmV9KbDFw4d+UTqv4GDPqay6zDjm88WT9XJZopRTr8S1CHi6Pd84HHQpbakvZq/dXO5Gwp/N4UwhTRA==
+releaseDate: '2026-11-04T14:39:54.753Z'
