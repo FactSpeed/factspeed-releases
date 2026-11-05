@@ -1,29 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.28",
-  "tag": "v10.14.28",
-  "date": "2026-11-04",
+  "latest": "10.14.29",
+  "tag": "v10.14.29",
+  "date": "2026-11-05",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.28/FactSpeed-Setup-10.14.28.exe",
-    "windows_taille": 143624942,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.28/FactSpeed-10.14.28-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.28/FactSpeed-10.14.28-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.29/FactSpeed-Setup-10.14.29.exe",
+    "windows_taille": 143625406,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.28/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.29/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "Recherche Clients et Documents avec anti-rebond (debounce 250 ms) :"
+        "Blocage immédiat d’une clé déplacée/copiée vers un autre ordinateur :",
+        "Serveur de licences : liaison machine renforcée (endpoint de"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Audit des 31 critères de performance : confirmés appliqués (27 pages",
-        "Typecheck, 443 tests, build et E2E verts ; mesure du debounce par"
+        "7 preuves anti-clonage automatisées : état de licence copié d’un"
       ]
     }
   ]
