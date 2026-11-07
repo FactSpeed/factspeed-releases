@@ -1,29 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.29",
-  "tag": "v10.14.29",
-  "date": "2026-11-05",
+  "latest": "10.14.30",
+  "tag": "v10.14.30",
+  "date": "2026-11-07",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.29/FactSpeed-Setup-10.14.29.exe",
-    "windows_taille": 143625406,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.29/FactSpeed-10.14.29-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.29/FactSpeed-10.14.29-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.30/FactSpeed-Setup-10.14.30.exe",
+    "windows_taille": 143625534,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.29/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.30/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "Blocage immédiat d’une clé déplacée/copiée vers un autre ordinateur :",
-        "Serveur de licences : liaison machine renforcée (endpoint de"
+        "L’offre « à vie ♾ » apparaît maintenant dans la commande intégrée : le"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "7 preuves anti-clonage automatisées : état de licence copié d’un"
+        "Audit de synchronisation totale site ↔ logiciel : tarifs annuels",
+        "5 tests de contrat sur la réponse RÉELLE du site ; 455 tests verts,"
       ]
     }
   ]
