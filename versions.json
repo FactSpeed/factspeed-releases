@@ -1,29 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.31",
-  "tag": "v10.14.31",
-  "date": "2026-11-08",
+  "latest": "10.14.32",
+  "tag": "v10.14.32",
+  "date": "2026-11-09",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.31/FactSpeed-Setup-10.14.31.exe",
-    "windows_taille": 143625558,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.31/FactSpeed-10.14.31-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.31/FactSpeed-10.14.31-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.32/FactSpeed-Setup-10.14.32.exe",
+    "windows_taille": 143625886,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.31/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.32/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajouté",
+      "titre": "Corrigé",
       "items": [
-        "Barre de progression dans la fenêtre de commande : pendant l’envoi"
+        "Couleur du bandeau de navigation : vraies teintes au lieu des couleurs",
+        "Aperçu en direct : un mini-dock affiche instantanément le rendu de la"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "La progression est poussée par le processus principal à CHAQUE étape réelle",
-        "Prouvé par captures d’écran bout en bout (barre à 30 % pendant l’envoi,"
+        "Chaque teinte est une pastille nommée (plus de carrés anonymes) "
       ]
     }
   ]
