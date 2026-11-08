@@ -1,29 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.30",
-  "tag": "v10.14.30",
-  "date": "2026-11-07",
+  "latest": "10.14.31",
+  "tag": "v10.14.31",
+  "date": "2026-11-08",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.30/FactSpeed-Setup-10.14.30.exe",
-    "windows_taille": 143625534,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.30/FactSpeed-10.14.30-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.30/FactSpeed-10.14.30-x64.dmg",
+    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.31/FactSpeed-Setup-10.14.31.exe",
+    "windows_taille": 143625558,
+    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.31/FactSpeed-10.14.31-arm64.dmg",
+    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.31/FactSpeed-10.14.31-x64.dmg",
     "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.30/SHA256SUMS.txt",
+  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.31/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Ajouté",
       "items": [
-        "L’offre « à vie ♾ » apparaît maintenant dans la commande intégrée : le"
+        "Barre de progression dans la fenêtre de commande : pendant l’envoi"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Audit de synchronisation totale site ↔ logiciel : tarifs annuels",
-        "5 tests de contrat sur la réponse RÉELLE du site ; 455 tests verts,"
+        "La progression est poussée par le processus principal à CHAQUE étape réelle",
+        "Prouvé par captures d’écran bout en bout (barre à 30 % pendant l’envoi,"
       ]
     }
   ]
