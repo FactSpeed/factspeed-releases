@@ -1,15 +1,15 @@
 # ⬇️ FactSpeed — Téléchargement officiel
 
-![FactSpeed](https://github.com/derouicheoussama/factspeed/blob/main/brand/github-hero.png?raw=true)
+![FactSpeed](https://github.com/FactSpeed/.github/blob/main/logo-horizontal.png?raw=true)
 
 **Logiciel professionnel de facturation et gestion commerciale pour le marché algérien.**
 100 % local · Français / العربية · TVA & droit de timbre LF 2025 · Windows 10/11 · macOS 12+
 
 ## 📥 Télécharger la dernière version
 
-**[👉 TÉLÉCHARGER — page des releases](https://github.com/derouicheoussama/factspeed-releases/releases/latest)**
+**[👉 TÉLÉCHARGER — page des releases](https://github.com/FactSpeed/factspeed-releases/releases/latest)**
 
-**[⬇️ Téléchargement direct Windows (ZIP recommandé)](https://github.com/derouicheoussama/factspeed-releases/releases/latest/download/FactSpeed-Windows.zip)**
+**[⬇️ Téléchargement direct Windows (ZIP recommandé)](https://github.com/FactSpeed/factspeed-releases/releases/latest/download/FactSpeed-Windows.zip)**
 
 | Votre ordinateur | Fichier à télécharger |
 |---|---|
