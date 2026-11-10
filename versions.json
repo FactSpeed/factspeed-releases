@@ -5,13 +5,13 @@
   "date": "2026-11-09",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.32/FactSpeed-Setup-10.14.32.exe",
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.32/FactSpeed-Setup-10.14.32.exe",
     "windows_taille": 143625886,
-    "mac_arm64": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.32/FactSpeed-10.14.32-arm64.dmg",
-    "mac_intel": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.32/FactSpeed-10.14.32-x64.dmg",
-    "page": "https://github.com/derouicheoussama/factspeed-releases/releases/latest"
+    "mac_arm64": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.32/FactSpeed-10.14.32-arm64.dmg",
+    "mac_intel": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.32/FactSpeed-10.14.32-x64.dmg",
+    "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/derouicheoussama/factspeed-releases/releases/download/v10.14.32/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.32/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
