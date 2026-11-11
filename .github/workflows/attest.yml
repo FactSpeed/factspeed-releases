@@ -24,7 +24,7 @@ jobs:
         run: |
           V="${{ inputs.version }}"
           curl -sL --fail -o "FactSpeed-Setup-${V}.exe" \
-            "https://github.com/derouicheoussama/factspeed-releases/releases/download/v${V}/FactSpeed-Setup-${V}.exe"
+            "https://github.com/FactSpeed/factspeed-releases/releases/download/v${V}/FactSpeed-Setup-${V}.exe"
           sha256sum "FactSpeed-Setup-${V}.exe"
 
       - name: Attestation de provenance (Sigstore)
