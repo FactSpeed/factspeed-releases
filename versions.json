@@ -7,8 +7,8 @@
   "telecharger": {
     "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.37/FactSpeed-Setup-10.14.37.exe",
     "windows_taille": 143627122,
-    "mac_arm64": null,
-    "mac_intel": null,
+    "mac_arm64": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.37/FactSpeed-10.14.37-arm64.dmg",
+    "mac_intel": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.37/FactSpeed-10.14.37-x64.dmg",
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
   "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.37/SHA256SUMS.txt",
