@@ -1,17 +1,17 @@
-version: 10.14.35
+version: 10.14.36
 files:
-  - url: https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.35/FactSpeed-10.14.35-x64.zip
-    sha512: puUSdOXc46Sok9jsVVWgX+RM0uN8hZ+lhr/SpsQhqR6sbwOkc0QZ1bRzB615pp/Nny7sjZpI4yQKUAR8kUNZQg==
-    size: 161320481
-  - url: https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.35/FactSpeed-10.14.35-arm64.zip
-    sha512: +wEg5S+9FCDQAwFpJsRW3U9t/mpVCZ0adBUdVfw4VioblmSCf11+cVoH7iE9qof88Nx39Uucv6enVZY/MppNoQ==
-    size: 154560508
-  - url: https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.35/FactSpeed-10.14.35-x64.dmg
-    sha512: 5/b+XnDFiHyNR0eTqz/ao2ThJqF1zTcud/56253e3OX4UdsbXDYcQ2G1Ey3Yo92uUrnd5fYXCUJSb5LDHre8wQ==
-    size: 152507583
-  - url: https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.35/FactSpeed-10.14.35-arm64.dmg
-    sha512: pEJg9j5ggknkp2+qhFvLLARcqy9jU9kiTRnklqE5AnODd2mEiTUB45yPnpUv9k93LouXnq5omMr/C1diQYk91g==
-    size: 146780455
-path: https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.35/FactSpeed-10.14.35-x64.zip
-sha512: puUSdOXc46Sok9jsVVWgX+RM0uN8hZ+lhr/SpsQhqR6sbwOkc0QZ1bRzB615pp/Nny7sjZpI4yQKUAR8kUNZQg==
-releaseDate: '2026-11-12T03:06:52.506Z'
+  - url: https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.36/FactSpeed-10.14.36-x64.zip
+    sha512: VXqTBWoI/73xdGHHD1UpjJAICUZfJPYReUkOKS5JQiOdpV6Kswg1ovIF5IgOYjczRVJrdAJCJPX6YEXDHTrQXA==
+    size: 161321346
+  - url: https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.36/FactSpeed-10.14.36-arm64.zip
+    sha512: 6xip/u2wbxt3giIdsoHWc7sTIIqgVe6xStmMw5zIVrT4NVXScSfhmtktS1pG9Rlx2GDn6BCcHublBhn9ezjUuA==
+    size: 154561374
+  - url: https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.36/FactSpeed-10.14.36-x64.dmg
+    sha512: /LPTnkmYDt1FTJMxRuHAFnDyAhXL+i+I3J97kN7aQTpYS6zCC4uibPxlTLjw0lg1KJqXeB7sGy9tGvUcmymSDA==
+    size: 152507009
+  - url: https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.36/FactSpeed-10.14.36-arm64.dmg
+    sha512: FJgnP01JwL2SytAp4nqF1fLPBgtKo3UfO7GscHogstulRf6Yx7fQwQmONlDEbUcVBu4btB1D+oFsDcI3diICCQ==
+    size: 146780518
+path: https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.36/FactSpeed-10.14.36-x64.zip
+sha512: VXqTBWoI/73xdGHHD1UpjJAICUZfJPYReUkOKS5JQiOdpV6Kswg1ovIF5IgOYjczRVJrdAJCJPX6YEXDHTrQXA==
+releaseDate: '2026-11-12T03:50:45.199Z'
