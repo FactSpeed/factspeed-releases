@@ -1,30 +1,28 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.37",
-  "tag": "v10.14.37",
+  "latest": "10.14.38",
+  "tag": "v10.14.38",
   "date": "2026-11-13",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.37/FactSpeed-Setup-10.14.37.exe",
-    "windows_taille": 143627122,
-    "mac_arm64": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.37/FactSpeed-10.14.37-arm64.dmg",
-    "mac_intel": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.37/FactSpeed-10.14.37-x64.dmg",
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.38/FactSpeed-Setup-10.14.38.exe",
+    "windows_taille": 143626637,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.37/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.38/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "La page utilise enfin les grands écrans : elle était tassée dans une",
-        "Plus aucun texte coupé net : les valeurs longues (nom de l’éditeur,",
-        "Dernière sauvegarde lisible : la date et l’heure s’affichent"
+        "Fenêtre réduite : le titre et le sous-titre de la barre supérieure"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Vérifié à la largeur d’écran réelle (2000 px) : éditeur complet, cartes"
+        "Détection mécanique des décalages ajoutée au contrôle qualité : chaque"
       ]
     }
   ]
