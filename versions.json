@@ -5,10 +5,10 @@
   "date": "2026-11-12",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.35/FactSpeed-Setup-10.14.35.exe",
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.35/FactSpeed-Setup-Windows.exe",
     "windows_taille": 143626200,
-    "mac_arm64": null,
-    "mac_intel": null,
+    "mac_arm64": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.35/FactSpeed-10.14.35-arm64.dmg",
+    "mac_intel": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.35/FactSpeed-10.14.35-x64.dmg",
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
   "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.35/SHA256SUMS.txt",
