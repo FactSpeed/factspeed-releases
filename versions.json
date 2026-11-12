@@ -1,29 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.35",
-  "tag": "v10.14.35",
-  "date": "2026-11-12",
+  "latest": "10.14.36",
+  "tag": "v10.14.36",
+  "date": "2026-11-13",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.35/FactSpeed-Setup-10.14.35.exe",
-    "windows_taille": 143626200,
-    "mac_arm64": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.35/FactSpeed-10.14.35-arm64.dmg",
-    "mac_intel": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.35/FactSpeed-10.14.35-x64.dmg",
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.36/FactSpeed-Setup-10.14.36.exe",
+    "windows_taille": 143626570,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.35/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.36/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "Dernier écran hors système harmonisé : l’état vide de la paie"
+        "Page À propos repensée : trois cartes équilibrées qui s’adaptent à",
+        "WhatsApp mis en avant dans le support : 7 j/7, vous parlez directement"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Audit d’harmonisation complet : toutes les fenêtres (modales,",
-        "Balayage grand public : 0 erreur sur 14 écrans. 455 tests verts,"
+        "Traductions arabes complètes ; 455 tests verts, typecheck et build OK "
       ]
     }
   ]
