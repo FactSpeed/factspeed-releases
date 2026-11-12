@@ -1,29 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.36",
-  "tag": "v10.14.36",
+  "latest": "10.14.37",
+  "tag": "v10.14.37",
   "date": "2026-11-13",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.36/FactSpeed-Setup-10.14.36.exe",
-    "windows_taille": 143626570,
-    "mac_arm64": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.36/FactSpeed-10.14.36-arm64.dmg",
-    "mac_intel": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.36/FactSpeed-10.14.36-x64.dmg",
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.37/FactSpeed-Setup-10.14.37.exe",
+    "windows_taille": 143627122,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.36/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.37/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "Page À propos repensée : trois cartes équilibrées qui s’adaptent à",
-        "WhatsApp mis en avant dans le support : 7 j/7, vous parlez directement"
+        "La page utilise enfin les grands écrans : elle était tassée dans une",
+        "Plus aucun texte coupé net : les valeurs longues (nom de l’éditeur,",
+        "Dernière sauvegarde lisible : la date et l’heure s’affichent"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Traductions arabes complètes ; 455 tests verts, typecheck et build OK "
+        "Vérifié à la largeur d’écran réelle (2000 px) : éditeur complet, cartes"
       ]
     }
   ]
