@@ -1,29 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.32",
-  "tag": "v10.14.32",
-  "date": "2026-11-09",
+  "latest": "10.14.33",
+  "tag": "v10.14.33",
+  "date": "2026-11-12",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.32/FactSpeed-Setup-10.14.32.exe",
-    "windows_taille": 143625886,
-    "mac_arm64": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.32/FactSpeed-10.14.32-arm64.dmg",
-    "mac_intel": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.32/FactSpeed-10.14.32-x64.dmg",
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.33/FactSpeed-Setup-10.14.33.exe",
+    "windows_taille": 143625912,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.32/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.33/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "Couleur du bandeau de navigation : vraies teintes au lieu des couleurs",
-        "Aperçu en direct : un mini-dock affiche instantanément le rendu de la"
+        "Le QR code du code machine a maintenant sa propre carte (« 📱 Commander",
+        "Le récapitulatif de statut (formule, type de licence, validité, serveur,"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Chaque teinte est une pastille nommée (plus de carrés anonymes) "
+        "Traductions arabes complètes ; 455 tests verts, typecheck et build OK "
       ]
     }
   ]
