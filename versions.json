@@ -1,35 +1,34 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.41",
-  "tag": "v10.14.41",
+  "latest": "10.14.42",
+  "tag": "v10.14.42",
   "date": "2026-11-21",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.41/FactSpeed-Setup-10.14.41.exe",
-    "windows_taille": 143627214,
-    "mac_arm64": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.41/FactSpeed-10.14.41-arm64.dmg",
-    "mac_intel": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.41/FactSpeed-10.14.41-x64.dmg",
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.42/FactSpeed-Setup-10.14.42.exe",
+    "windows_taille": 143627539,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.41/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.42/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Jeton de licence signé Ed25519 : le serveur peut remettre un jeton",
-        "Page de remerciement enrichie à la réinstallation : si vous"
+        "Notification Windows native : dès qu'une nouvelle version est détectée,"
       ]
     },
     {
       "titre": "Corrigé",
       "items": [
-        "Verrouillage plus réactif : le contrôle de licence passe d'un rythme"
+        "Aucune régression : la pop-up « prête à installer » reste la seule surface"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "465 tests verts (10 nouveaux sur le jeton signé : signature valide,"
+        "470 tests verts (5 nouvelles gardes anti-spam : une notification par"
       ]
     }
   ]
