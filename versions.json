@@ -1,34 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.42",
-  "tag": "v10.14.42",
+  "latest": "10.14.43",
+  "tag": "v10.14.43",
   "date": "2026-11-21",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.42/FactSpeed-Setup-10.14.42.exe",
-    "windows_taille": 143627539,
-    "mac_arm64": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.42/FactSpeed-10.14.42-arm64.dmg",
-    "mac_intel": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.42/FactSpeed-10.14.42-x64.dmg",
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.43/FactSpeed-Setup-10.14.43.exe",
+    "windows_taille": 143627493,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.42/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.43/SHA256SUMS.txt",
   "nouveautes": [
-    {
-      "titre": "Ajouté",
-      "items": [
-        "Notification Windows native : dès qu'une nouvelle version est détectée,"
-      ]
-    },
     {
       "titre": "Corrigé",
       "items": [
-        "Aucune régression : la pop-up « prête à installer » reste la seule surface"
+        "Carte de statut harmonisée : le bandeau vert dégradé de la page",
+        "Fiche récapitulative (formule, validité, serveur, dernière",
+        "Pastille « Passer à Pro / Business » alignée sur l'accent bleu"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "470 tests verts (5 nouvelles gardes anti-spam : une notification par"
+        "470 tests verts · typecheck OK · balayage client 14 écrans 0 erreur ·"
       ]
     }
   ]
