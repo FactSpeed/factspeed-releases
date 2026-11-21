@@ -1,28 +1,38 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.38",
-  "tag": "v10.14.38",
-  "date": "2026-11-13",
+  "latest": "10.14.39",
+  "tag": "v10.14.39",
+  "date": "2026-11-21",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.38/FactSpeed-Setup-10.14.38.exe",
-    "windows_taille": 143626637,
-    "mac_arm64": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.38/FactSpeed-10.14.38-arm64.dmg",
-    "mac_intel": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.38/FactSpeed-10.14.38-x64.dmg",
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.39/FactSpeed-Setup-10.14.39.exe",
+    "windows_taille": 143626596,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.38/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.39/SHA256SUMS.txt",
   "nouveautes": [
+    {
+      "titre": "Ajouté",
+      "items": [
+        "Mises à jour via factspeed.com : le logiciel télécharge désormais ses",
+        "Site synchronisé automatiquement : la dernière version publiée est"
+      ]
+    },
     {
       "titre": "Corrigé",
       "items": [
-        "Fenêtre réduite : le titre et le sous-titre de la barre supérieure"
+        "Portail d'activation : le client peut quitter normalement — le bouton",
+        "Pastille de version : affiche la vraie version du logiciel",
+        "Graphique du chiffre d'affaires : les mois sans activité n'affichent"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Détection mécanique des décalages ajoutée au contrôle qualité : chaque"
+        "Infrastructure officielle alignée sur l'organisation GitHub FactSpeed",
+        "455 tests verts · typecheck OK · balayage client 14 écrans 0 erreur ·"
       ]
     }
   ]
