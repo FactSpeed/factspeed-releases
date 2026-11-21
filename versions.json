@@ -1,28 +1,35 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.40",
-  "tag": "v10.14.40",
+  "latest": "10.14.41",
+  "tag": "v10.14.41",
   "date": "2026-11-21",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.40/FactSpeed-Setup-10.14.40.exe",
-    "windows_taille": 143626568,
-    "mac_arm64": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.40/FactSpeed-10.14.40-arm64.dmg",
-    "mac_intel": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.40/FactSpeed-10.14.40-x64.dmg",
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.41/FactSpeed-Setup-10.14.41.exe",
+    "windows_taille": 143627214,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.40/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.41/SHA256SUMS.txt",
   "nouveautes": [
+    {
+      "titre": "Ajouté",
+      "items": [
+        "Jeton de licence signé Ed25519 : le serveur peut remettre un jeton",
+        "Page de remerciement enrichie à la réinstallation : si vous"
+      ]
+    },
     {
       "titre": "Corrigé",
       "items": [
-        "« Commande en attente de validation » ne s'affiche plus quand la licence"
+        "Verrouillage plus réactif : le contrôle de licence passe d'un rythme"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "455 tests verts · typecheck OK · balayage client 14 écrans 0 erreur ·"
+        "465 tests verts (10 nouveaux sur le jeton signé : signature valide,"
       ]
     }
   ]
