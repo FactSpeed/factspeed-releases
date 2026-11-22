@@ -1,22 +1,22 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.44",
-  "tag": "v10.14.44",
-  "date": "2026-11-21",
+  "latest": "10.14.45",
+  "tag": "v10.14.45",
+  "date": "2026-11-22",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.44/FactSpeed-Setup-10.14.44.exe",
-    "windows_taille": 143627273,
-    "mac_arm64": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.44/FactSpeed-10.14.44-arm64.dmg",
-    "mac_intel": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.44/FactSpeed-10.14.44-x64.dmg",
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.45/FactSpeed-Setup-10.14.45.exe",
+    "windows_taille": 143627175,
+    "mac_arm64": null,
+    "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.44/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.45/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "La fenêtre rapide « Licence · ∞ » suit le nouveau style : la carte en"
+        "Icône WhatsApp en double dans la section « Support & liens » de la page"
       ]
     },
     {
