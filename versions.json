@@ -1,29 +1,28 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.48",
-  "tag": "v10.14.48",
+  "latest": "10.14.49",
+  "tag": "v10.14.49",
   "date": "2026-11-23",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.48/FactSpeed-Setup-10.14.48.exe",
-    "windows_taille": 143746558,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.49/FactSpeed-Setup-10.14.49.exe",
+    "windows_taille": 143746337,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.48/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.49/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "Fini les derniers dégradés décoratifs : les bannières restantes en",
-        "Écran de verrouillage essai terminé : passe aussi à la police de",
-        "Écrans d'activation et de sécurité (portail d'activation, avertissement"
+        "Le champ « Nom / Raison sociale » gardait le focus une seconde puis le"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
+        "Sonde dédiée : frappe simulée dans « Nom / Raison sociale » → focus",
         "470 tests verts · typecheck OK · balayage client 14 écrans 0 erreur ·"
       ]
     }
