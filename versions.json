@@ -1,29 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.46",
-  "tag": "v10.14.46",
-  "date": "2026-11-22",
+  "latest": "10.14.47",
+  "tag": "v10.14.47",
+  "date": "2026-11-23",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.46/FactSpeed-Setup-10.14.46.exe",
-    "windows_taille": 143627443,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.47/FactSpeed-Setup-10.14.47.exe",
+    "windows_taille": 143746504,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.46/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.47/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Ajouté",
       "items": [
-        "Typographie normalisée dans les 24 écrans : les tailles de police à"
+        "Nouvelle typographie de marque : Outfit (police libre OFL, Google",
+        "L'arabe reste en Cairo (lisibilité optimale), les montants et codes en"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Échelle typographique documentée dans le CSS (variables `--fs-*` +",
-        "~110 valeurs normalisées sur 24 fichiers · 470 tests verts · typecheck"
+        "470 tests verts · typecheck OK · balayage client 14 écrans 0 erreur ·"
       ]
     }
   ]
