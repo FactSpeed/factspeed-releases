@@ -1,29 +1,42 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.49",
-  "tag": "v10.14.49",
-  "date": "2026-11-23",
+  "latest": "10.14.51",
+  "tag": "v10.14.51",
+  "date": "2026-11-24",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.49/FactSpeed-Setup-10.14.49.exe",
-    "windows_taille": 143746337,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.51/FactSpeed-Setup-10.14.51.exe",
+    "windows_taille": 143747822,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.49/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.51/SHA256SUMS.txt",
   "nouveautes": [
+    {
+      "titre": "Ajouté",
+      "items": [
+        "Synchronisation avec factspeed.com (contrat serveur 24/11, déjà en prod) :",
+        "Ping d'installation — le logiciel signale votre installation une seule",
+        "Votre commande validée apparaît dans le logiciel — si vous avez payé,",
+        "Essai prolongé depuis le tableau de bord = visible sans réinstaller —",
+        "Commande et mise à jour synchronisées avec le tableau de bord — une",
+        "Vérification à chaque ouverture de la page Licence puis toutes les 24 h ",
+        "Heartbeat enrichi : les jours restants peuvent être calculés par le"
+      ]
+    },
     {
       "titre": "Corrigé",
       "items": [
-        "Le champ « Nom / Raison sociale » gardait le focus une seconde puis le"
+        "Dates en horaire local partout (critique) : entre 00:00 et 00:59, les",
+        "« Payé = 0,00 DA » après encaissement : le correctif historique est",
+        "Export Excel blindé contre l'injection de formules : une cellule"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Sonde dédiée : frappe simulée dans « Nom / Raison sociale » → focus",
-        "470 tests verts · typecheck OK · balayage client 14 écrans 0 erreur ·"
+        "511 tests verts (37 nouveaux : dates au 1ᵉʳ janvier 00:20, classeur Excel"
       ]
     }
   ]
