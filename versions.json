@@ -1,28 +1,28 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.53",
-  "tag": "v10.14.53",
-  "date": "2026-11-24",
+  "latest": "10.14.54",
+  "tag": "v10.14.54",
+  "date": "2026-11-26",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.53/FactSpeed-Setup-10.14.53.exe",
-    "windows_taille": 143747832,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.54/FactSpeed-Setup-10.14.54.exe",
+    "windows_taille": 143747843,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.53/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.54/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Ajouté",
       "items": [
-        "Modal et page Licence repassés en neutre (votre retour : « clean, pur,"
+        "L’essai reste affiché en haut, à la manière des meilleurs logiciels :"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "515 tests verts · typecheck OK · captures modal + page inspectées"
+        "515 tests verts · typecheck OK · balayage client 0 erreur / 0 décalage"
       ]
     }
   ]
