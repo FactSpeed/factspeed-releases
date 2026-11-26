@@ -1,32 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.55",
-  "tag": "v10.14.55",
+  "latest": "10.14.56",
+  "tag": "v10.14.56",
   "date": "2026-11-26",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.55/FactSpeed-Setup-10.14.55.exe",
-    "windows_taille": 143748216,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.56/FactSpeed-Setup-10.14.56.exe",
+    "windows_taille": 143748163,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.55/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.56/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "Une clé FS- était refusée par la page Licence (le filtre n’acceptait",
-        "Écran de déverrouillage : la saisie n’altère plus la clé — l’ancien",
-        "Suivi de commande unifié : la même commande affiche désormais le même",
-        "Email de mise à jour honnête : il décrit le flux réel (téléchargement",
-        "Titre du panneau Licence : le symbole ∞ ne s’affiche que pour une"
+        "Le pack Business affichait « 2 postes » — c’est le Duo ; le Business",
+        "La formule Auto-Entrepreneur (6 000 DA/an) était invisible dans le",
+        "Le nom de la formule Auto-Entrepreneur s’affiche proprement (au lieu de"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "522 tests verts (7 nouvelles gardes de cohérence) · typecheck OK ·"
+        "522 tests verts · typecheck OK · balayage client 0 erreur / 0 décalage"
       ]
     }
   ]
