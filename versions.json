@@ -1,28 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.15.11",
-  "tag": "v10.15.11",
+  "latest": "10.15.12",
+  "tag": "v10.15.12",
   "date": "2026-11-28",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.11/FactSpeed-Setup-10.15.11.exe",
-    "windows_taille": 143772505,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.12/FactSpeed-Setup-10.15.12.exe",
+    "windows_taille": 143772483,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.11/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.12/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "Le dialog « A JavaScript error occurred in the main process — EPIPE:"
+        "Synchronisation du profil : la règle des 4 secondes est respectée même",
+        "Jeton de licence : les tentatives reprennent après 1 h (le rythme du"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "615 tests verts (3 gardes anti-EPIPE : garde-fous avant toute écriture,"
+        "E2E complet 47/47 (2 sélecteurs de test périmés corrigés : titre de la"
       ]
     }
   ]
