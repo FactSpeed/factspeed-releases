@@ -1,31 +1,28 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.15.8",
-  "tag": "v10.15.8",
+  "latest": "10.15.9",
+  "tag": "v10.15.9",
   "date": "2026-11-27",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.8/FactSpeed-Setup-10.15.8.exe",
-    "windows_taille": 143772213,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.9/FactSpeed-Setup-10.15.9.exe",
+    "windows_taille": 143772115,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.8/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.9/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajouté",
+      "titre": "Corrigé",
       "items": [
-        "Synchronisation totale du profil Entreprise (contrat site 27/11) : ce que",
-        "Interrupteur « Synchroniser avec mon espace client » dans Paramètres ›",
-        "Un profil modifié sur le site est appliqué au démarrage et toutes les",
-        "Multi-sociétés : chaque société du registre a sa propre synchronisation"
+        "Messages de renouvellement alignés sur la règle serveur (27/11) : pour"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "599 tests verts (19 nouveaux gardes : envoi/relecture/conflit/400 sans"
+        "599 tests verts (garde mise à jour : l'ancienne formule « renouveler ou"
       ]
     }
   ]
