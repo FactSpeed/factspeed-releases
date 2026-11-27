@@ -1,33 +1,31 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.57",
-  "tag": "v10.14.57",
+  "latest": "10.14.58",
+  "tag": "v10.14.58",
   "date": "2026-11-27",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.57/FactSpeed-Setup-10.14.57.exe",
-    "windows_taille": 143748609,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.58/FactSpeed-Setup-10.14.58.exe",
+    "windows_taille": 143748966,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.57/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.58/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "Adresse de contact exacte partout : contact@factspeed.com (l’ancienne",
-        "La formule Auto-Entrepreneur se commande : les formules réservées à la",
-        "macOS rattrapé sur la détection de mise à jour : la protection contre",
-        "Modes de règlement harmonisés : CCP, carte bancaire et « autre »",
-        "Modèles de documents : la mention de vérification pointe vers",
-        "Canaux morts supprimés, description Duo exacte (une seule clé pour les"
+        "La phrase secrète des sauvegardes est désormais chiffrée dans la base",
+        "Clé Google Sheets : indicateur « clé configurée ✓ » et bouton",
+        "Les réglages de sauvegarde ont des valeurs par défaut complètes"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "538 tests verts (16 nouvelles gardes de cohérence site ↔ logiciel) ·"
+        "Nouveau balayage dédié : chaque onglet des Paramètres (14) est visité",
+        "543 tests verts (5 nouveaux : round-trip de la phrase secrète) ·"
       ]
     }
   ]
