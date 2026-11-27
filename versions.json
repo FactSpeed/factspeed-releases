@@ -1,30 +1,33 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.56",
-  "tag": "v10.14.56",
-  "date": "2026-11-26",
+  "latest": "10.14.57",
+  "tag": "v10.14.57",
+  "date": "2026-11-27",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.56/FactSpeed-Setup-10.14.56.exe",
-    "windows_taille": 143748163,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.57/FactSpeed-Setup-10.14.57.exe",
+    "windows_taille": 143748609,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.56/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.57/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "Le pack Business affichait « 2 postes » — c’est le Duo ; le Business",
-        "La formule Auto-Entrepreneur (6 000 DA/an) était invisible dans le",
-        "Le nom de la formule Auto-Entrepreneur s’affiche proprement (au lieu de"
+        "Adresse de contact exacte partout : contact@factspeed.com (l’ancienne",
+        "La formule Auto-Entrepreneur se commande : les formules réservées à la",
+        "macOS rattrapé sur la détection de mise à jour : la protection contre",
+        "Modes de règlement harmonisés : CCP, carte bancaire et « autre »",
+        "Modèles de documents : la mention de vérification pointe vers",
+        "Canaux morts supprimés, description Duo exacte (une seule clé pour les"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "522 tests verts · typecheck OK · balayage client 0 erreur / 0 décalage"
+        "538 tests verts (16 nouvelles gardes de cohérence site ↔ logiciel) ·"
       ]
     }
   ]
