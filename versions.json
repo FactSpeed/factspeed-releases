@@ -1,28 +1,35 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.15.6",
-  "tag": "v10.15.6",
+  "latest": "10.15.7",
+  "tag": "v10.15.7",
   "date": "2026-11-27",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.6/FactSpeed-Setup-10.15.6.exe",
-    "windows_taille": 143769031,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.7/FactSpeed-Setup-10.15.7.exe",
+    "windows_taille": 143769743,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.6/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.7/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Ajouté",
       "items": [
-        "Pill « ⬇️ Mises à jour » toujours visible dans la barre supérieure :"
+        "Arrêt à distance d'un poste (contrat serveur 27/11) : le tableau de bord",
+        "Jeton signé Ed25519 = ancre de confiance : la grâce hors-ligne d'une"
+      ]
+    },
+    {
+      "titre": "Corrigé",
+      "items": [
+        "Déclenchement MAJ depuis le signal « outdated » du site : un pont global"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "563 tests verts (gardes mises à jour : canal updates:etat public) ·"
+        "580 tests verts (17 nouveaux gardes anti-piratage : forge refusée, jeton"
       ]
     }
   ]
