@@ -1,30 +1,28 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.15.1",
-  "tag": "v10.15.1",
+  "latest": "10.15.2",
+  "tag": "v10.15.2",
   "date": "2026-11-27",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.1/FactSpeed-Setup-10.15.1.exe",
-    "windows_taille": 143769176,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.2/FactSpeed-Setup-10.15.2.exe",
+    "windows_taille": 143769038,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.1/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.2/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "Aucun contournement possible : la règle « pack actif = pas de",
-        "Le sélecteur interne du modal de commande ne peut plus afficher les",
-        "La règle est transmise à factspeed.com pour application symétrique côté"
+        "« Changer d’offre » affiche un avertissement clair : avec un pack actif"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "559 tests verts (4 nouvelles gardes : couche métier ×3 canaux, filtre"
+        "560 tests verts (1 nouvelle garde) · typecheck OK · balayages 0 erreur / 0 décalage"
       ]
     }
   ]
