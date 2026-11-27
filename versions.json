@@ -1,31 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.58",
-  "tag": "v10.14.58",
+  "latest": "10.14.59",
+  "tag": "v10.14.59",
   "date": "2026-11-27",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.58/FactSpeed-Setup-10.14.58.exe",
-    "windows_taille": 143748966,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.59/FactSpeed-Setup-10.14.59.exe",
+    "windows_taille": 143749154,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.58/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.59/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "La phrase secrète des sauvegardes est désormais chiffrée dans la base",
-        "Clé Google Sheets : indicateur « clé configurée ✓ » et bouton",
-        "Les réglages de sauvegarde ont des valeurs par défaut complètes"
+        "La formule Auto-Entrepreneur (6 000 DA/an — 18 000 à vie) apparaît",
+        "Changer d’offre reconnaît Auto-Entrepreneur dans la hiérarchie",
+        "Les titres ne promettent plus « Pro / Business » seulement : la licence"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "Nouveau balayage dédié : chaque onglet des Paramètres (14) est visité",
-        "543 tests verts (5 nouveaux : round-trip de la phrase secrète) ·"
+        "547 tests verts (4 nouvelles gardes) · typecheck OK · balayages 0 erreur"
       ]
     }
   ]
