@@ -1,40 +1,30 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.15.0",
-  "tag": "v10.15.0",
+  "latest": "10.15.1",
+  "tag": "v10.15.1",
   "date": "2026-11-27",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.0/FactSpeed-Setup-10.15.0.exe",
-    "windows_taille": 143768489,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.1/FactSpeed-Setup-10.15.1.exe",
+    "windows_taille": 143769176,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.0/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.1/SHA256SUMS.txt",
   "nouveautes": [
-    {
-      "titre": "Ajouté",
-      "items": [
-        "Sessions de caisse : ouverture par poste + caissier + fond de caisse,",
-        "Encaissement professionnel : espèces avec pavé tactile, montants",
-        "Tickets en attente : plusieurs tickets simultanés, reprise en un clic",
-        "Retours et remboursements : recherche de la vente originale, retour",
-        "Ticket thermique 58/80 mm avec logo, QR code, conditions ; impression",
-        "Raccourcis professionnels : F1 nouvelle vente, F2 recherche,",
-        "Historique de caisse : sessions passées + ventes du jour avec"
-      ]
-    },
     {
       "titre": "Corrigé",
       "items": [
-        "Liste d’offres : repli hors ligne propre (formulaire article libre,"
+        "Aucun contournement possible : la règle « pack actif = pas de",
+        "Le sélecteur interne du modal de commande ne peut plus afficher les",
+        "La règle est transmise à factspeed.com pour application symétrique côté"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "557 tests verts (8 nouveaux : comptage, sessions, mouvements,"
+        "559 tests verts (4 nouvelles gardes : couche métier ×3 canaux, filtre"
       ]
     }
   ]
