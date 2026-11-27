@@ -1,8 +1,8 @@
-version: 10.15.8
+version: 10.15.9
 files:
-  - url: https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.8/FactSpeed-Setup-10.15.8.exe
-    sha512: UX9BFO7+M0GxlvLswUfgtDPgVYuTmva5h8Xvnp7O5MLZvlP5QBEPCkZLU8UH9iELpiAaaDi55yjKd9BXBm846g==
-    size: 143772213
-path: https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.8/FactSpeed-Setup-10.15.8.exe
-sha512: UX9BFO7+M0GxlvLswUfgtDPgVYuTmva5h8Xvnp7O5MLZvlP5QBEPCkZLU8UH9iELpiAaaDi55yjKd9BXBm846g==
-releaseDate: '2026-11-27T18:43:37.003Z'
+  - url: https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.9/FactSpeed-Setup-10.15.9.exe
+    sha512: PlgdR1iy2zY2ibFIruqLzWwQLdx2dYAPyoBVbDnK3Oj55GDdChdJdHu8a8uRl0ukojo0ronOijz6nnpos9CgNQ==
+    size: 143772115
+path: https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.9/FactSpeed-Setup-10.15.9.exe
+sha512: PlgdR1iy2zY2ibFIruqLzWwQLdx2dYAPyoBVbDnK3Oj55GDdChdJdHu8a8uRl0ukojo0ronOijz6nnpos9CgNQ==
+releaseDate: '2026-11-27T18:59:09.135Z'
