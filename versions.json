@@ -1,28 +1,31 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.15.9",
-  "tag": "v10.15.9",
+  "latest": "10.15.10",
+  "tag": "v10.15.10",
   "date": "2026-11-27",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.9/FactSpeed-Setup-10.15.9.exe",
-    "windows_taille": 143772115,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.10/FactSpeed-Setup-10.15.10.exe",
+    "windows_taille": 143772405,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.9/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.10/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Ajouté",
       "items": [
-        "Messages de renouvellement alignés sur la règle serveur (27/11) : pour"
+        "Règle de l'auteur appliquée dans le logiciel : un numéro de téléphone",
+        "Fenêtre de commande : contrôle immédiat à la saisie (message clair sous",
+        "Assistant d'installation : téléphone de la société contrôlé si",
+        "Le profil Entreprise reste tolérant : la synchronisation avec l'espace"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "599 tests verts (garde mise à jour : l'ancienne formule « renouveler ou"
+        "612 tests verts (13 gardes téléphone : le cas déclencheur +33 7 73 89 03 92"
       ]
     }
   ]
