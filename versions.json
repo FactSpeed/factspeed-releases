@@ -1,31 +1,28 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.15.10",
-  "tag": "v10.15.10",
-  "date": "2026-11-27",
+  "latest": "10.15.11",
+  "tag": "v10.15.11",
+  "date": "2026-11-28",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.10/FactSpeed-Setup-10.15.10.exe",
-    "windows_taille": 143772405,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.11/FactSpeed-Setup-10.15.11.exe",
+    "windows_taille": 143772505,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.10/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.11/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajouté",
+      "titre": "Corrigé",
       "items": [
-        "Règle de l'auteur appliquée dans le logiciel : un numéro de téléphone",
-        "Fenêtre de commande : contrôle immédiat à la saisie (message clair sous",
-        "Assistant d'installation : téléphone de la société contrôlé si",
-        "Le profil Entreprise reste tolérant : la synchronisation avec l'espace"
+        "Le dialog « A JavaScript error occurred in the main process — EPIPE:"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "612 tests verts (13 gardes téléphone : le cas déclencheur +33 7 73 89 03 92"
+        "615 tests verts (3 gardes anti-EPIPE : garde-fous avant toute écriture,"
       ]
     }
   ]
