@@ -1,28 +1,28 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.15.2",
-  "tag": "v10.15.2",
+  "latest": "10.15.3",
+  "tag": "v10.15.3",
   "date": "2026-11-27",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.2/FactSpeed-Setup-10.15.2.exe",
-    "windows_taille": 143769038,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.3/FactSpeed-Setup-10.15.3.exe",
+    "windows_taille": 143769086,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.2/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.3/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "« Changer d’offre » affiche un avertissement clair : avec un pack actif"
+        "La formule actuellement activée avec votre abonnement est marquée sur"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "560 tests verts (1 nouvelle garde) · typecheck OK · balayages 0 erreur / 0 décalage"
+        "561 tests verts (1 nouvelle garde) · typecheck OK · balayages 0 erreur / 0 décalage"
       ]
     }
   ]
