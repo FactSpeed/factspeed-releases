@@ -1,29 +1,28 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.15.4",
-  "tag": "v10.15.4",
+  "latest": "10.15.5",
+  "tag": "v10.15.5",
   "date": "2026-11-27",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.4/FactSpeed-Setup-10.15.4.exe",
-    "windows_taille": 143768973,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.5/FactSpeed-Setup-10.15.5.exe",
+    "windows_taille": 143768844,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.4/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.5/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "La formule active n’est plus commandable : la carte de votre formule",
-        "Refus également en couche métier : même avec une requête forgée, la"
+        "Les refus de commande sont plus professionnels et plus utiles : le"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "563 tests verts (2 nouvelles gardes) · typecheck OK · balayages 0 erreur / 0 décalage"
+        "563 tests verts (gardes mises à jour) · typecheck OK · balayages 0 erreur / 0 décalage"
       ]
     }
   ]
