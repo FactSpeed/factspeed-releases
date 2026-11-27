@@ -1,29 +1,40 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.14.60",
-  "tag": "v10.14.60",
+  "latest": "10.15.0",
+  "tag": "v10.15.0",
   "date": "2026-11-27",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.60/FactSpeed-Setup-10.14.60.exe",
-    "windows_taille": 143748940,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.0/FactSpeed-Setup-10.15.0.exe",
+    "windows_taille": 143768489,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.14.60/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.0/SHA256SUMS.txt",
   "nouveautes": [
+    {
+      "titre": "Ajouté",
+      "items": [
+        "Sessions de caisse : ouverture par poste + caissier + fond de caisse,",
+        "Encaissement professionnel : espèces avec pavé tactile, montants",
+        "Tickets en attente : plusieurs tickets simultanés, reprise en un clic",
+        "Retours et remboursements : recherche de la vente originale, retour",
+        "Ticket thermique 58/80 mm avec logo, QR code, conditions ; impression",
+        "Raccourcis professionnels : F1 nouvelle vente, F2 recherche,",
+        "Historique de caisse : sessions passées + ventes du jour avec"
+      ]
+    },
     {
       "titre": "Corrigé",
       "items": [
-        "Un client qui a un pack payant actif (Pro, Duo ou Business) ne peut plus",
-        "La sélection de code promo suit la même liste (pas de remise sur un pack"
+        "Liste d’offres : repli hors ligne propre (formulaire article libre,"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "549 tests verts (2 nouvelles gardes) · typecheck OK · balayages 0 erreur"
+        "557 tests verts (8 nouveaux : comptage, sessions, mouvements,"
       ]
     }
   ]
