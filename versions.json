@@ -1,29 +1,35 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.15.14",
-  "tag": "v10.15.14",
+  "latest": "10.15.15",
+  "tag": "v10.15.15",
   "date": "2026-11-28",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.14/FactSpeed-Setup-10.15.14.exe",
-    "windows_taille": 143773708,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.15/FactSpeed-Setup-10.15.15.exe",
+    "windows_taille": 143774102,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.14/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.15/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Corrigé",
+      "titre": "Ajouté",
       "items": [
-        "Re-commande de votre formule active : bloquée AVANT l'envoi, même quand",
-        "Refus serveur « formule déjà active » intercepté : le client affiche le"
+        "Le logiciel transmet maintenant au serveur l'état de chaque essai :",
+        "À l'écoulement de l'essai, l'écran de verrouillage affiche désormais"
+      ]
+    },
+    {
+      "titre": "Déjà en place (rappel)",
+      "items": [
+        "Relances DANS le logiciel : pill ambre J+h en permanence + pill rouge"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "622 tests verts (gardes mises à jour + interception bascule_interdite) ·"
+        "623 tests verts (payload essai/email vérifié dans ping + sync) ·"
       ]
     }
   ]
