@@ -1,35 +1,28 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.15.15",
-  "tag": "v10.15.15",
+  "latest": "10.15.16",
+  "tag": "v10.15.16",
   "date": "2026-11-28",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.15/FactSpeed-Setup-10.15.15.exe",
-    "windows_taille": 143774102,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.16/FactSpeed-Setup-10.15.16.exe",
+    "windows_taille": 143774176,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.15/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.16/SHA256SUMS.txt",
   "nouveautes": [
     {
-      "titre": "Ajouté",
+      "titre": "Corrigé",
       "items": [
-        "Le logiciel transmet maintenant au serveur l'état de chaque essai :",
-        "À l'écoulement de l'essai, l'écran de verrouillage affiche désormais"
-      ]
-    },
-    {
-      "titre": "Déjà en place (rappel)",
-      "items": [
-        "Relances DANS le logiciel : pill ambre J+h en permanence + pill rouge"
+        "Vérification des jetons de licence contre un TABLEAU de clés publiques"
       ]
     },
     {
       "titre": "Qualité",
       "items": [
-        "623 tests verts (payload essai/email vérifié dans ping + sync) ·"
+        "625 tests verts (garde : les deux clés embarquées + sémantique du tableau,"
       ]
     }
   ]
