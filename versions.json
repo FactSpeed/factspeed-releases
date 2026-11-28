@@ -1,39 +1,29 @@
 {
   "produit": "FactSpeed",
-  "latest": "10.15.13",
-  "tag": "v10.15.13",
+  "latest": "10.15.14",
+  "tag": "v10.15.14",
   "date": "2026-11-28",
   "rollout": 100,
   "telecharger": {
-    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.13/FactSpeed-Setup-10.15.13.exe",
-    "windows_taille": 143773398,
+    "windows": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.14/FactSpeed-Setup-10.15.14.exe",
+    "windows_taille": 143773708,
     "mac_arm64": null,
     "mac_intel": null,
     "page": "https://github.com/FactSpeed/factspeed-releases/releases/latest"
   },
-  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.13/SHA256SUMS.txt",
+  "empreintes": "https://github.com/FactSpeed/factspeed-releases/releases/download/v10.15.14/SHA256SUMS.txt",
   "nouveautes": [
     {
       "titre": "Corrigé",
       "items": [
-        "Un poste désactivé à distance ne peut plus ACTIVER de clé (avant : la",
-        "Clé liée à un autre ordinateur : le message affiche le code machine de ce"
+        "Re-commande de votre formule active : bloquée AVANT l'envoi, même quand",
+        "Refus serveur « formule déjà active » intercepté : le client affiche le"
       ]
     },
     {
-      "titre": "Ajouté",
+      "titre": "Qualité",
       "items": [
-        "Journal anti-clonage : un état de licence détecté comme venant d'une"
-      ]
-    },
-    {
-      "titre": "Vérifié (matrice complète  1 licence  2 PC   6 nouvelles gardes)",
-      "items": [
-        "Clé Pro : liée à exactement 1 machine (refusée ailleurs, message complet) ·",
-        "Licence en ligne FS- : %APPDATA% copié vers un autre PC = état inutilisable",
-        "Poste banni : porte + activation refusées",
-        "Essai : 1 par machine, non transférable (ancres registre + ProgramData +",
-        "621 tests verts · typecheck OK"
+        "622 tests verts (gardes mises à jour + interception bascule_interdite) ·"
       ]
     }
   ]
